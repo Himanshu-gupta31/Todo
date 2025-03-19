@@ -12,7 +12,6 @@ function App() {
 
   const API_URL = 'https://todo-fa0b.onrender.com/api/todos';
 
-  // Fetch todos on component mount
   useEffect(() => {
     fetchTodos();
   }, []);

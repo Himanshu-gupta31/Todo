@@ -10,7 +10,7 @@ function App() {
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
 
-  const API_URL = 'http://localhost:8000/api/todos';
+  const API_URL = 'https://todo-fa0b.onrender.com/api/todos';
 
   // Fetch todos on component mount
   useEffect(() => {
